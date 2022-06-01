@@ -355,7 +355,7 @@ namespace Greenshot.Forms
                         }
                         catch (Exception)
                         {
-                            MessageBox.Show(@"Couldn't open the greenshot.log, it's located here: " + MainForm.LogFileLocation, @"Error opening greenshot.log",
+                            MessageBox.Show(@"Couldn't open the greenshot.log, it's PROBABLY located here: " + MainForm.LogFileLocation, @"Error opening greenshot.log",
                                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         }
 
